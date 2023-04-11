@@ -1,0 +1,30 @@
+<class name="org.muviereck.LoginTestCase.TC_Login_01"/>
+
+
+
+<class name="org.muviereck.customerTestCase.TC_CustomerContains_01"/>
+<class name="org.muviereck.customerTestCase.TC_CustomerSearch_01"/>
+<class name="org.muviereck.customerTestCase.TC_CustomerSort_01"/>
+<class name="org.muviereck.customerTestCase.TC_Delete_01"/>
+<class name="org.muviereck.customerTestCase.TC_Edit_01"/>
+
+
+
+<class name="org.muviereck.myorderTestCase.TC_Action_01"/>
+<class name="org.muviereck.myorderTestCase.TC_ContainsOrder_01"/>
+<class name="org.muviereck.myorderTestCase.TC_Delete_01"/>
+<class name="org.muviereck.myorderTestCase.TC_Edit_01"/>
+<class name="org.muviereck.myorderTestCase.TC_Record_01"/>
+<class name="org.muviereck.myorderTestCase.TC_Search_01"/>
+<class name="org.muviereck.myorderTestCase.TC_SortOrder_01"/>
+
+<class name="org.muviereck.resellerTestCase.TC_Add_01"/>
+<class name="org.muviereck.resellerTestCase.TC_contains_01"/>
+<class name="org.muviereck.resellerTestCase.TC_Delete_01"/>
+<class name="org.muviereck.resellerTestCase.TC_Edit_01"/>
+<class name="org.muviereck.resellerTestCase.TC_Record_01"/>
+<class name="org.muviereck.resellerTestCase.TC_Sort_01"/>
+
+<class name="org.muviereck.settingsTestCase.TC_settingMRP_01"/>
+<class name="org.muviereck.settingsTestCase.TC_SettingOrginal_01"/>
+<class name="org.muviereck.settingsTestCase.TC_logout_01"/>

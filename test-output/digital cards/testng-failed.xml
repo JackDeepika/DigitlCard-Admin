@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [digital cards]">
+  <test thread-count="5" name="Customer(failed)">
+    <classes>
+      <class name="org.muviereck.customerTestCase.TC_Edit_01">
+        <methods>
+          <include name="edittestnegative"/>
+          <include name="setup"/>
+          <include name="edittestclear"/>
+        </methods>
+      </class> <!-- org.muviereck.customerTestCase.TC_Edit_01 -->
+      <class name="org.muviereck.myorderTestCase.TC_ContainsOrder_01">
+        <methods>
+          <include name="containstest"/>
+          <include name="setup"/>
+          <include name="containstestcrt"/>
+        </methods>
+      </class> <!-- org.muviereck.myorderTestCase.TC_ContainsOrder_01 -->
+      <class name="org.muviereck.myorderTestCase.TC_Search_01">
+        <methods>
+          <include name="searchTestnegative"/>
+          <include name="searchTestboth"/>
+          <include name="searchTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.muviereck.myorderTestCase.TC_Search_01 -->
+      <class name="org.muviereck.myorderTestCase.TC_Edit_01">
+        <methods>
+          <include name="edittestmyordercancel"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.muviereck.myorderTestCase.TC_Edit_01 -->
+      <class name="org.muviereck.myorderTestCase.TC_Delete_01">
+        <methods>
+          <include name="deletetestconmyorder"/>
+          <include name="deletetestcon"/>
+          <include name="deletetest"/>
+          <include name="deletetestconmyordercancel"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.muviereck.myorderTestCase.TC_Delete_01 -->
+      <class name="org.muviereck.resellerTestCase.TC_Sort_01">
+        <methods>
+          <include name="sorttest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.muviereck.resellerTestCase.TC_Sort_01 -->
+      <class name="org.muviereck.customerTestCase.TC_Delete_01">
+        <methods>
+          <include name="deletetest"/>
+          <include name="deletetestconfirm"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.muviereck.customerTestCase.TC_Delete_01 -->
+      <class name="org.muviereck.myorderTestCase.TC_SortOrder_01">
+        <methods>
+          <include name="sortTest"/>
+          <include name="sortTestvisit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.muviereck.myorderTestCase.TC_SortOrder_01 -->
+      <class name="org.muviereck.myorderTestCase.TC_Record_01">
+        <methods>
+          <include name="recordtestmyorder"/>
+          <include name="recordtest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.muviereck.myorderTestCase.TC_Record_01 -->
+      <class name="org.muviereck.myorderTestCase.TC_Action_01">
+        <methods>
+          <include name="actiontestnegative"/>
+          <include name="actiontestclear"/>
+          <include name="actiontestmandatory"/>
+          <include name="actiontest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.muviereck.myorderTestCase.TC_Action_01 -->
+    </classes>
+  </test> <!-- Customer(failed) -->
+</suite> <!-- Failed suite [digital cards] -->
